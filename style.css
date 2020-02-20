@@ -18,12 +18,25 @@
     padding: 40px 30px;
 }
 
-.label-name {
+.label-name, .label-name-1 {
     float: left;
-    margin-right: 20px;
+    margin-right: 110px;
 }
 
-#label-preview , #cancel , #create-label  {
+#label-name , #label-name-1{
+    display: block;
+}
+
+.color-val {
+    display: inline;
+}
+
+.label-names {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#label-preview , #cancel , #create-label , .label-button, #cancel-1 , #create-label-1 {
     padding: 10px 12px;
     background-color: #28a745;
     color: #fff;
@@ -33,7 +46,7 @@
     border-radius: 5px
 }
 
-#reset {
+#reset, #reset-1 {
     padding: 10px 12px;
     border: none;
     border-radius: 5px;
@@ -74,8 +87,7 @@ li {
 input {
     padding: 10px;
     font-size: 16px;
-    display: inline;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 
@@ -85,6 +97,7 @@ form {
 
 .color{
     display: inline-block;
+    margin: 19px 0;
 }
 
 .button {
@@ -92,8 +105,13 @@ form {
     padding-top: 9px;
 }
 
+.fa {
+    color: black;
+}
+
 .buttons {
     float: right;
+    margin: 22px 0;
 }
 
 ul {
@@ -101,7 +119,7 @@ ul {
     padding: 20px ;
 }
 
-.delete {
+.delete ,.edit {
     float: right;
     padding: 9px;
     border: none;

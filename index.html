@@ -5,24 +5,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="container">
             <div class="wrapper">
                 <div class="new-label">
-                    <button>New label</button>
+                    <button class="label-button">New label</button>
                 </div>
                 <div class="label">
                     <span id="label-preview" title="Label Preview">Label Preview</span>
                     <form action="#" id="label-form">
                         <div class="label-details">
                             <div class="label-name">
-                                <label for="label-name">Label name</label>
+                                <label for="label-name" class="label-names">Label name</label>
                                 <input type="text"id="label-name" autocomplete="off">
                                 <span class="nameAlert">Please fill the field</span>
                             </div>                  
                         <div class="color">
-                            <button id="reset">Reset</button>
+                            <button id="reset"><i class="fa fa-refresh"></i></button>
                             <input type="text" id="color-val">
                             <span class="colorAlert">Please fill the color</span>
                         </div>
@@ -34,6 +35,24 @@
                     </form>
                 </div>
                 <ul id="label-list">
+                    <form action="#" id="label-form-1">
+                        <div class="label-details">
+                            <div class="label-name">
+                                <label for="label-name" class="label-names">Label name</label>
+                                <input type="text"id="label-name-1" autocomplete="off">
+                                <span class="nameAlert">Please fill the field</span>
+                            </div>                  
+                        <div class="color">
+                            <button id="reset-1"><i class="fa fa-refresh"></i></button>
+                            <input type="text" id="color-val-1">
+                            <span class="colorAlert">Please fill the color</span>
+                        </div>
+                        <div class="buttons">
+                            <button id="cancel-1">Cancel</button>
+                            <button id="create-label-1">Save Changes</button>
+                        </div>
+                        </div>
+                    </form>
                 </ul>
             </div>
         </div>
